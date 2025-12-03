@@ -9,6 +9,7 @@ let words = [
     {'RAN':'ORANGE'},
     {'ACE':'RACECAR'}
 ]
+
 function wordChooser() {
     let randomIndex = Math.round(Math.random() * words.length)
     let choose = words[randomIndex]
